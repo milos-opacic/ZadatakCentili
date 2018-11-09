@@ -1,0 +1,87 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+
+h1{
+  font-size: 30px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+body{
+  background: -webkit-linear-gradient(left, #25c481, #25b7c4);
+  background: linear-gradient(to right, #25c481, #25b7c4);
+  font-family: 'Roboto', sans-serif;
+}
+
+.ui-datatable .ui-widget{
+    width: 100%;
+    color: black;
+}
+
+.ui-datatable .ui-widget-content{
+    background: linear-gradient(to right, #25c481, #25b7c4);
+    color: black;
+    font-weight: bold;
+}
+
+.ui-datatable .ui-datatable-tablewrapper {
+  overflow-x:auto;
+  margin-top: 0px;
+  border: 1px solid rgba(0,0,0,0.8);
+  text-align: center;
+  color: black;
+}
+
+.ui-widget-header{
+    background: #c4c4c4 -webkit-gradient(linear, left top, left bottom, from(rgba(33, 22, 22, 0.8)), to(rgba(255,255,255,0)));
+    color: white;
+    font-weight: 700;
+}
+
+.ui-state-default{
+    background-color: #ccffff;
+}
+
+.ui-widget-content .ui-state-default{
+    background: #c5a659;
+}
+
+.ui-paginator-pages .ui-paginator-page{
+    background: linear-gradient(to right, #25c481, #25b7c4);
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.ui-button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.ui-button:hover {background-color: #3e8e41}
+
+.ui-button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#form1\:addDocumentBtn{
+    box-shadow: none;
+}
+
+.dltBtn:hover{
+    background-color: #cc0000;
+}
+
+
